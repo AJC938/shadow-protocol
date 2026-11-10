@@ -1,0 +1,12 @@
+{
+  "port": "auto",
+  "baud": 115200,
+  "godot_host": "127.0.0.1",
+  "to_godot_port": 42420,
+  "from_godot_port": 42421,
+  "ping_interval": 0.5,
+  "state_resend_interval": 2.0,
+  "link_report_interval": 0.25,
+  "probe_seconds": 6.0,
+  "reconnect_delay": 1.5
+}

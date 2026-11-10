@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_ew4ic"]
+
+[resource]
+script = ExtResource("1_ew4ic")
+id = &"shotgun"
+display_name = "SG-12 Tactical Shotgun"
+model = 2
+damage = 15.0
+headshot_multiplier = 1.5
+fire_rate = 1.2
+pellets = 9
+range = 30.0
+falloff_start = 8.0
+min_damage_scale = 0.25
+magazine_size = 6
+start_reserve = 18
+max_reserve = 36
+reload_time = 2.6
+spread_hip = 5.5
+spread_aim = 4.0
+recoil_pitch = 4.5
+recoil_yaw = 1.0
+noise_radius = 45.0
+fire_sound = &"shotgun_fire"
+muzzle_flash_scale = 1.5
+switch_time = 0.5

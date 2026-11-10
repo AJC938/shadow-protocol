@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="GadgetData" format=3]
+
+[ext_resource type="Script" path="res://scripts/gadgets/gadget_data.gd" id="1_pnxb4"]
+
+[resource]
+script = ExtResource("1_pnxb4")
+id = &"disruptor"
+display_name = "Signal Disruptor"
+kind = 1
+description = "Jams cameras, alarm panels and specialist radios within range."
+cooldown = 12.0
+duration = 12.0
+range = 10.0
+charges = 3
+noise_radius = 4.0

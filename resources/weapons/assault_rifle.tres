@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_su3sc"]
+
+[resource]
+script = ExtResource("1_su3sc")
+id = &"rifle"
+display_name = "AR-7 Assault Rifle"
+model = 1
+damage = 26.0
+fire_rate = 9.5
+automatic = true
+range = 120.0
+falloff_start = 45.0
+min_damage_scale = 0.6
+magazine_size = 30
+start_reserve = 90
+max_reserve = 180
+reload_time = 2.1
+spread_aim = 0.9
+spread_move_add = 2.0
+recoil_pitch = 0.9
+recoil_yaw = 0.45
+noise_radius = 38.0
+fire_sound = &"rifle_fire"
+muzzle_flash_scale = 1.0
+switch_time = 0.45

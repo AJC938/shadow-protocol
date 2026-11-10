@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1_26beo"]
+[ext_resource type="Resource" path="res://resources/weapons/enemy_rifle.tres" id="2_nxmwu"]
+
+[resource]
+script = ExtResource("1_26beo")
+walk_speed = 1.5
+run_speed = 4.2
+vision_range = 22.0
+fov_degrees = 105.0
+detection_rate = 55.0
+weapon = ExtResource("2_nxmwu")
+accuracy = 0.42
+reaction_time = 0.75
+burst_interval = 1.4
+radio_range = 16.0

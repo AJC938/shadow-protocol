@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_r7t1b"]
+
+[resource]
+script = ExtResource("1_r7t1b")
+id = &"enemy_rifle"
+display_name = "Guard Rifle"
+model = 1
+damage = 9.0
+fire_rate = 8.0
+automatic = true
+range = 80.0
+noise_radius = 38.0
+fire_sound = &"rifle_fire_enemy"
+muzzle_flash_scale = 0.9

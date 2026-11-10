@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_qp0ik"]
+
+[resource]
+script = ExtResource("1_qp0ik")
+id = &"enemy_lmg"
+display_name = "Heavy LMG"
+model = 1
+damage = 11.0
+fire_rate = 10.0
+automatic = true
+range = 80.0
+noise_radius = 45.0
+fire_sound = &"lmg_fire"
+muzzle_flash_scale = 1.2

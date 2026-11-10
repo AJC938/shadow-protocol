@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="GadgetData" format=3]
+
+[ext_resource type="Script" path="res://scripts/gadgets/gadget_data.gd" id="1_asgec"]
+
+[resource]
+script = ExtResource("1_asgec")
+id = &"recon"
+display_name = "Recon Camera"
+kind = 0
+description = "Deployable camera. Remote view with limited arc; tags hostiles in view."
+cooldown = 8.0
+duration = 0.0
+range = 14.0
+noise_radius = 2.0

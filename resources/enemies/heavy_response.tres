@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1_8dkpt"]
+[ext_resource type="Resource" path="res://resources/weapons/enemy_lmg.tres" id="2_nrfp4"]
+
+[resource]
+script = ExtResource("1_8dkpt")
+archetype = 2
+display_name = "Heavy Response Unit"
+max_health = 320.0
+armor = 0.45
+walk_speed = 1.2
+run_speed = 2.6
+visual_scale = 1.12
+vision_range = 20.0
+fov_degrees = 95.0
+detection_rate = 45.0
+suspicion_decay = 6.0
+hearing_multiplier = 0.8
+weapon = ExtResource("2_nrfp4")
+accuracy = 0.35
+reaction_time = 0.9
+burst_size = 7
+burst_interval = 1.8
+preferred_range = 7.0
+uses_cover = false
+aggressive_push = true
+radio_range = 20.0

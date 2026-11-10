@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_vg6oa"]
+
+[resource]
+script = ExtResource("1_vg6oa")
+id = &"commander_rifle"
+display_name = "Commander Carbine"
+model = 1
+damage = 13.0
+fire_rate = 6.0
+automatic = true
+range = 90.0
+noise_radius = 40.0
+fire_sound = &"rifle_fire_enemy"
+muzzle_flash_scale = 1.0

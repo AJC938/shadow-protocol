@@ -1,0 +1,455 @@
+{
+	"failed": 0,
+	"results": [
+		{
+			"failures": [],
+			"id": "test_core::test_external_provider_axes_and_deadzone",
+			"ms": 1,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_external_provider_button_edges",
+			"ms": 0,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_router_merges_external_provider_and_blocking",
+			"ms": 0,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_rebind_swaps_conflicts",
+			"ms": 1,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_health_damage_armor_headshot_death",
+			"ms": 1,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_health_regen",
+			"ms": 0,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_sound_event_bus",
+			"ms": 0,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_core::test_settings_roundtrip_and_clamping",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_missing_file_gives_defaults",
+			"ms": 0,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_roundtrip_and_unlock_progression",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_best_record_kept",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_campaign_complete_flag",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_corrupted_file",
+			"ms": 2,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_unsupported_version",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_invalid_references_repaired",
+			"ms": 1,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_v1_migration",
+			"ms": 2,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_checkpoint_does_not_touch_progress",
+			"ms": 3,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_save::test_atomic_save_creates_file",
+			"ms": 2,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_vision_detects_player_in_view",
+			"ms": 391,
+			"notes": [
+				"suspicion after 9.5s: 100.0, state combat"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_vision_blocked_by_wall",
+			"ms": 145,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_vision_fov_behind",
+			"ms": 110,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_vision_range_limit",
+			"ms": 81,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_light_and_stance_affect_detection",
+			"ms": 64,
+			"notes": [
+				"gain lit/standing 33.41 vs dark/crouched 12.35"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_hearing_investigates_noise",
+			"ms": 229,
+			"notes": [
+				"distance to noise after investigating: 2.37 (state investigate)"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_hearing_out_of_range_and_muffled",
+			"ms": 52,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_gunshot_triggers_alert_and_search",
+			"ms": 309,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_patrol_follows_route",
+			"ms": 379,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_combat_shoots_player_and_reports",
+			"ms": 429,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_lost_contact_leads_to_search_then_return",
+			"ms": 1716,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_specialist_raises_alarm",
+			"ms": 470,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_heavy_pushes_toward_player",
+			"ms": 351,
+			"notes": [
+				"heavy distance after 10 s: 13.7 (state combat)"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_ai::test_body_discovery_alerts",
+			"ms": 118,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m01_navigation_and_ai",
+			"ms": 4275,
+			"notes": [
+				"M01: 863 polygons, 18 patrol legs, broken: []",
+				"M01: 6/6 patrolling enemies moved in 25 s; not moved: []"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m01_full_walkthrough_and_checkpoint",
+			"ms": 5746,
+			"notes": [
+				"M01 results: grade S score 2249 time 1 detections 0 optional 3/3"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m02_navigation_and_ai",
+			"ms": 4051,
+			"notes": [
+				"M02: 643 polygons, 16 patrol legs, broken: []",
+				"M02: 6/6 patrolling enemies moved in 25 s; not moved: []"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m02_full_walkthrough",
+			"ms": 3396,
+			"notes": [
+				"M02 results: grade A optional 2/2"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m03_navigation_and_ai",
+			"ms": 4206,
+			"notes": [
+				"M03: 680 polygons, 30 patrol legs, broken: []",
+				"M03: 10/10 patrolling enemies moved in 25 s; not moved: []"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m03_containment_walkthrough_and_campaign_end",
+			"ms": 2365,
+			"notes": [
+				"M03 results: grade S optional 3/3"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_m03_override_refused_when_voss_outside_and_kill_path",
+			"ms": 2041,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_missions::test_continue_flow_from_menu_state",
+			"ms": 2691,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_camera_detects_and_raises_alarm",
+			"ms": 372,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_disruptor_and_console_disable_camera",
+			"ms": 154,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_alarm_auto_clears",
+			"ms": 5,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_door_blocks_vision_and_opens",
+			"ms": 125,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_keycard_door",
+			"ms": 25,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_hiding_spot_hides_player",
+			"ms": 93,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_restricted_zone_flag",
+			"ms": 21,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_movement_speeds_and_noise",
+			"ms": 170,
+			"notes": [
+				"speeds jog 3.70 sprint 6.20 crouch 1.70; noise 7.5 / 14.0 / 1.2"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_wall_collision",
+			"ms": 103,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_camera_collision",
+			"ms": 37,
+			"notes": [
+				"arm length free 3.00 vs blocked 0.94"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_crouch_blocked_under_low_ceiling",
+			"ms": 12,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_weapon_fire_reload_switch",
+			"ms": 118,
+			"notes": [
+				"rifle rounds in 0.5 s: 5"
+			],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_player_shot_damages_enemy_and_headshot",
+			"ms": 65,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_suppressed_vs_loud_noise",
+			"ms": 1,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_pickups_and_interaction",
+			"ms": 74,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_hold_interaction",
+			"ms": 53,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_scanner_tags_enemies_temporarily",
+			"ms": 267,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_disruptor_charges_and_range",
+			"ms": 63,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_recon_camera_placement_rules",
+			"ms": 26,
+			"notes": [],
+			"passed": true
+		},
+		{
+			"failures": [],
+			"id": "test_security_player::test_player_death_signal",
+			"ms": 7,
+			"notes": [],
+			"passed": true
+		}
+	],
+	"total": 60
+}

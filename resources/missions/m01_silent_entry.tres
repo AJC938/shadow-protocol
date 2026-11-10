@@ -1,0 +1,71 @@
+[gd_resource type="Resource" script_class="MissionData" format=3]
+
+[ext_resource type="Script" path="res://scripts/missions/objective_data.gd" id="1_qa5xo"]
+[ext_resource type="Script" path="res://scripts/missions/mission_data.gd" id="2_y4lr1"]
+
+[sub_resource type="Resource" id="Resource_y6tc2"]
+script = ExtResource("1_qa5xo")
+id = &"reach_perimeter"
+text = "Reach the facility perimeter"
+
+[sub_resource type="Resource" id="Resource_1phjp"]
+script = ExtResource("1_qa5xo")
+id = &"enter_checkpoint"
+text = "Enter the security checkpoint"
+
+[sub_resource type="Resource" id="Resource_dtvqm"]
+script = ExtResource("1_qa5xo")
+id = &"pass_checkpoint"
+text = "Get past the checkpoint security — avoid or neutralise"
+
+[sub_resource type="Resource" id="Resource_4acrt"]
+script = ExtResource("1_qa5xo")
+id = &"access_terminal"
+text = "Access the facility control terminal"
+
+[sub_resource type="Resource" id="Resource_6kw25"]
+script = ExtResource("1_qa5xo")
+id = &"retrieve_intel"
+text = "Retrieve the initial intelligence package"
+
+[sub_resource type="Resource" id="Resource_g51q5"]
+script = ExtResource("1_qa5xo")
+id = &"extract"
+text = "Reach the extraction area"
+
+[sub_resource type="Resource" id="Resource_ym8of"]
+script = ExtResource("1_qa5xo")
+id = &"undetected_checkpoint"
+text = "Pass the checkpoint undetected"
+optional = true
+
+[sub_resource type="Resource" id="Resource_unq35"]
+script = ExtResource("1_qa5xo")
+id = &"data_shards"
+text = "Recover classified data shards"
+optional = true
+required_count = 2
+
+[sub_resource type="Resource" id="Resource_tt5e3"]
+script = ExtResource("1_qa5xo")
+id = &"no_alarm"
+text = "Do not raise the alarm"
+optional = true
+
+[resource]
+script = ExtResource("2_y4lr1")
+title = "Silent Entry"
+codename = "SILENT ENTRY"
+location = "Kestrel Ridge Facility — Outer Sector"
+background = "Kestrel Ridge is a fenced industrial complex owned on paper by Northgate Systems, a defence contractor that builds secure communications hardware. For six months, encrypted traffic leaving the site has matched the signatures of an intelligence-trafficking ring that sells surveillance data on allied operatives."
+briefing = "GHOST, this is ORACLE. You go in tonight through the western perimeter. Get through the security checkpoint, reach the control terminal in the admin block and pull the initial intelligence package. Then out through the loading yard to the east.
+
+Their guards are contractors, not soldiers — but they are armed and they patrol. Stay in the shadows, keep it quiet, and nobody needs to know we were there."
+objectives = Array[ExtResource("1_qa5xo")]([SubResource("Resource_y6tc2"), SubResource("Resource_1phjp"), SubResource("Resource_dtvqm"), SubResource("Resource_4acrt"), SubResource("Resource_6kw25"), SubResource("Resource_g51q5"), SubResource("Resource_ym8of"), SubResource("Resource_unq35"), SubResource("Resource_tt5e3")])
+weapons = Array[StringName]([&"pistol", &"rifle"])
+gadgets = Array[StringName]([&"scanner", &"recon"])
+scene_path = "res://scenes/missions/mission_01.tscn"
+par_time = 720.0
+music = &"mission_1"
+briefing_voice = &"vo_brief_m01"
+debrief = "Package received. Northgate isn't building radios, GHOST — they're hiding a surveillance network inside them. Rest up. Black Signal is next."

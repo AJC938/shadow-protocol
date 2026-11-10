@@ -1,0 +1,27 @@
+# Godot 4
+.godot/
+.import/
+*.translation
+export_credentials.cfg
+.env
+.env.*
+!.env.example
+*.log
+crash*.txt
+# Build output
+build/*
+!build/.gitkeep
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+# Test / capture output
+tests/output/
+docs/screenshots/*.tmp.png
+__pycache__/
+tools/voice_raw/
+controller_firmware/build/
+# Locally generated Windows SAPI voice output; see docs/ASSETS_AND_CREDITS.md
+assets/audio/voice/*.wav
+assets/audio/voice/*.wav.import

@@ -1,0 +1,666 @@
+{
+ "concrete_floor_worn_001": {
+  "type": "texture",
+  "name": "Concrete Floor Worn 001",
+  "authors": [
+   "Dimitrios Savva",
+   "Rico Cilliers"
+  ],
+  "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.jpg"
+  ],
+  "use": "interior floors"
+ },
+ "painted_concrete": {
+  "type": "texture",
+  "name": "Painted Concrete",
+  "authors": [
+   "Dario Barresi",
+   "Dimitrios Savva"
+  ],
+  "source": "https://polyhaven.com/a/painted_concrete",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_concrete/painted_concrete_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_concrete/painted_concrete_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_concrete/painted_concrete_rough_1k.jpg"
+  ],
+  "use": "interior walls"
+ },
+ "concrete_wall_008": {
+  "type": "texture",
+  "name": "Concrete Wall 008",
+  "authors": [
+   "Dario Barresi",
+   "Charlotte Baglioni"
+  ],
+  "source": "https://polyhaven.com/a/concrete_wall_008",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_008/concrete_wall_008_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_008/concrete_wall_008_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_008/concrete_wall_008_rough_1k.jpg"
+  ],
+  "use": "exterior walls"
+ },
+ "asphalt_02": {
+  "type": "texture",
+  "name": "Asphalt 02",
+  "authors": [
+   "Rob Tuytel"
+  ],
+  "source": "https://polyhaven.com/a/asphalt_02",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg"
+  ],
+  "use": "outdoor ground"
+ },
+ "metal_plate": {
+  "type": "texture",
+  "name": "Metal Plate",
+  "authors": [
+   "Rob Tuytel"
+  ],
+  "source": "https://polyhaven.com/a/metal_plate",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_rough_1k.jpg"
+  ],
+  "use": "metal floors / platforms"
+ },
+ "rusty_corrugated_iron": {
+  "type": "texture",
+  "name": "Rusty Corrugated Iron",
+  "authors": [
+   "Charlotte Baglioni"
+  ],
+  "source": "https://polyhaven.com/a/rusty_corrugated_iron",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_corrugated_iron/rusty_corrugated_iron_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_corrugated_iron/rusty_corrugated_iron_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_corrugated_iron/rusty_corrugated_iron_rough_1k.jpg"
+  ],
+  "use": "warehouse cladding"
+ },
+ "painted_metal_shutter": {
+  "type": "texture",
+  "name": "Painted Metal Shutter",
+  "authors": [
+   "Dario Barresi",
+   "Rico Cilliers",
+   "Charlotte Baglioni"
+  ],
+  "source": "https://polyhaven.com/a/painted_metal_shutter",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_rough_1k.jpg"
+  ],
+  "use": "doors"
+ },
+ "worn_tile_floor": {
+  "type": "texture",
+  "name": "Worn Tile Floor",
+  "authors": [
+   "Dimitrios Savva"
+  ],
+  "source": "https://polyhaven.com/a/worn_tile_floor",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_tile_floor/worn_tile_floor_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_tile_floor/worn_tile_floor_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_tile_floor/worn_tile_floor_rough_1k.jpg"
+  ],
+  "use": "offices / lab floor"
+ },
+ "rusty_metal_grid": {
+  "type": "texture",
+  "name": "Rusty Metal Grid",
+  "authors": [
+   "Amal Kumar"
+  ],
+  "source": "https://polyhaven.com/a/rusty_metal_grid",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_rough_1k.jpg"
+  ],
+  "use": "grates / catwalks"
+ },
+ "gravel_floor": {
+  "type": "texture",
+  "name": "Gravel Floor",
+  "authors": [
+   "Jenelle van Heerden",
+   "Matterfield"
+  ],
+  "source": "https://polyhaven.com/a/gravel_floor",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_rough_1k.jpg"
+  ],
+  "use": "perimeter ground"
+ },
+ "kloppenheim_02_puresky": {
+  "type": "hdri",
+  "name": "Kloppenheim 02 (Pure Sky)",
+  "authors": [
+   "Greg Zaal",
+   "Jarod Guest"
+  ],
+  "source": "https://polyhaven.com/a/kloppenheim_02_puresky",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_02_puresky_1k.hdr"
+  ],
+  "use": "night sky lighting"
+ },
+ "security_camera_01": {
+  "type": "model",
+  "name": "Security Camera 01",
+  "authors": [
+   "Alexander Otterbeck",
+   "Yann Kervran"
+  ],
+  "source": "https://polyhaven.com/a/security_camera_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/security_camera_01/security_camera_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/security_camera_01/security_camera_01.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_camera_01/security_camera_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_camera_01/security_camera_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_camera_01/security_camera_01_nor_gl_1k.jpg"
+  ],
+  "use": "security cameras"
+ },
+ "metal_office_desk": {
+  "type": "model",
+  "name": "Metal Office Desk",
+  "authors": [
+   "Ulan Cabanilla"
+  ],
+  "source": "https://polyhaven.com/a/metal_office_desk",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_office_desk/metal_office_desk_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_office_desk/metal_office_desk.bin"
+  ],
+  "use": "offices"
+ },
+ "steel_frame_shelves_01": {
+  "type": "model",
+  "name": "Steel Frame Shelves 01",
+  "authors": [
+   "James Ray Cock"
+  ],
+  "source": "https://polyhaven.com/a/steel_frame_shelves_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/steel_frame_shelves_01/steel_frame_shelves_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/steel_frame_shelves_01/steel_frame_shelves_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/steel_frame_shelves_01/steel_frame_shelves_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/steel_frame_shelves_01/steel_frame_shelves_01.bin"
+  ],
+  "use": "warehouse shelving"
+ },
+ "wooden_military_crate": {
+  "type": "model",
+  "name": "Wooden Military Crate",
+  "authors": [
+   "Prabhjinder Singh"
+  ],
+  "source": "https://polyhaven.com/a/wooden_military_crate",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wooden_military_crate/wooden_military_crate_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_military_crate/wooden_military_crate_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_military_crate/wooden_military_crate_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_military_crate/wooden_military_crate_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_military_crate/wooden_military_crate.bin"
+  ],
+  "use": "cover crates"
+ },
+ "old_military_crate": {
+  "type": "model",
+  "name": "Old Military Crate",
+  "authors": [
+   "Jack Mava"
+  ],
+  "source": "https://polyhaven.com/a/old_military_crate",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/old_military_crate/old_military_crate_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_crate/old_military_crate_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_crate/old_military_crate_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_crate/old_military_crate_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/old_military_crate/old_military_crate.bin"
+  ],
+  "use": "cover crates"
+ },
+ "Barrel_01": {
+  "type": "model",
+  "name": "Barrel_01",
+  "authors": [
+   "Jorge Camacho"
+  ],
+  "source": "https://polyhaven.com/a/Barrel_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/Barrel_01/Barrel_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/Barrel_01/Barrel_01.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Barrel_01/Barrel_01_explosive_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Barrel_01/Barrel_01_explosive_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Barrel_01/Barrel_01_explosive_arm_1k.jpg"
+  ],
+  "use": "barrels"
+ },
+ "barrel_03": {
+  "type": "model",
+  "name": "Barrel 03",
+  "authors": [
+   "Serhii Khromov"
+  ],
+  "source": "https://polyhaven.com/a/barrel_03",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/barrel_03/barrel_03_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/barrel_03/barrel_03_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/barrel_03/barrel_03.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/barrel_03/barrel_03_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/barrel_03/barrel_03_arm_1k.jpg"
+  ],
+  "use": "barrels"
+ },
+ "concrete_road_barrier": {
+  "type": "model",
+  "name": "Concrete Road Barrier",
+  "authors": [
+   "Amal Kumar"
+  ],
+  "source": "https://polyhaven.com/a/concrete_road_barrier",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/concrete_road_barrier/concrete_road_barrier_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/concrete_road_barrier/concrete_road_barrier_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/concrete_road_barrier/concrete_road_barrier_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/concrete_road_barrier/concrete_road_barrier_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/concrete_road_barrier/concrete_road_barrier.bin"
+  ],
+  "use": "perimeter cover"
+ },
+ "power_box_01": {
+  "type": "model",
+  "name": "Power Box 01",
+  "authors": [
+   "Rico Cilliers",
+   "Yann Kervran"
+  ],
+  "source": "https://polyhaven.com/a/power_box_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/power_box_01/power_box_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/power_box_01/power_box_01.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_diff_1k.jpg"
+  ],
+  "use": "electrical panels"
+ },
+ "hanging_industrial_lamp": {
+  "type": "model",
+  "name": "Hanging Industrial Lamp",
+  "authors": [
+   "Kuutti Siitonen"
+  ],
+  "source": "https://polyhaven.com/a/hanging_industrial_lamp",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_emissive_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_glass_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/hanging_industrial_lamp/hanging_industrial_lamp.bin"
+  ],
+  "use": "ceiling lights"
+ },
+ "mounted_fluorescent_lights": {
+  "type": "model",
+  "name": "Mounted Fluorescent Lights",
+  "authors": [
+   "Ulan Cabanilla"
+  ],
+  "source": "https://polyhaven.com/a/mounted_fluorescent_lights",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_emission_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mounted_fluorescent_lights/mounted_fluorescent_lights.bin"
+  ],
+  "use": "office lights"
+ },
+ "propane_tank": {
+  "type": "model",
+  "name": "Propane Tank",
+  "authors": [
+   "Slinc"
+  ],
+  "source": "https://polyhaven.com/a/propane_tank",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/propane_tank/propane_tank.bin"
+  ],
+  "use": "props"
+ },
+ "metal_jerrycan_green": {
+  "type": "model",
+  "name": "Metal Jerrycan Green",
+  "authors": [
+   "Ulan Cabanilla"
+  ],
+  "source": "https://polyhaven.com/a/metal_jerrycan_green",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_jerrycan_green/metal_jerrycan_green_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_jerrycan_green/metal_jerrycan_green_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_jerrycan_green/metal_jerrycan_green_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_jerrycan_green/metal_jerrycan_green_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_jerrycan_green/metal_jerrycan_green.bin"
+  ],
+  "use": "props"
+ },
+ "utility_box_01": {
+  "type": "model",
+  "name": "Utility Box 01",
+  "authors": [
+   "James Ray Cock"
+  ],
+  "source": "https://polyhaven.com/a/utility_box_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_01/utility_box_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/utility_box_01/utility_box_01.bin"
+  ],
+  "use": "props"
+ },
+ "exterior_aircon_unit": {
+  "type": "model",
+  "name": "Exterior Aircon Unit",
+  "authors": [
+   "Monsta3D"
+  ],
+  "source": "https://polyhaven.com/a/exterior_aircon_unit",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/exterior_aircon_unit/exterior_aircon_unit_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_opacity_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/exterior_aircon_unit/exterior_aircon_unit.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg"
+  ],
+  "use": "props"
+ },
+ "ammo_box": {
+  "type": "model",
+  "name": "Ammo Box",
+  "authors": [
+   "DanKit"
+  ],
+  "source": "https://polyhaven.com/a/ammo_box",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ammo_box/ammo_box_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ammo_box/ammo_box_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ammo_box/ammo_box_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ammo_box/ammo_box_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/ammo_box/ammo_box.bin"
+  ],
+  "use": "ammo pickups"
+ },
+ "portable_generator": {
+  "type": "model",
+  "name": "Portable Generator",
+  "authors": [
+   "James Ray Cock"
+  ],
+  "source": "https://polyhaven.com/a/portable_generator",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_generator/portable_generator_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_spec_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_generator/portable_generator.bin"
+  ],
+  "use": "props"
+ },
+ "metal_tool_chest": {
+  "type": "model",
+  "name": "Metal Tool Chest",
+  "authors": [
+   "Yann Kervran",
+   "John Hutcheson"
+  ],
+  "source": "https://polyhaven.com/a/metal_tool_chest",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_tool_chest/metal_tool_chest_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_tool_chest/metal_tool_chest.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_tool_chest/metal_tool_chest_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_tool_chest/metal_tool_chest_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_tool_chest/metal_tool_chest_diff_1k.jpg"
+  ],
+  "use": "props"
+ },
+ "cardboard_box_01": {
+  "type": "model",
+  "name": "Cardboard Box 01",
+  "authors": [
+   "Rahul Chaudhary"
+  ],
+  "source": "https://polyhaven.com/a/cardboard_box_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/cardboard_box_01/cardboard_box_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/cardboard_box_01/cardboard_box_01.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_nor_gl_1k.jpg"
+  ],
+  "use": "props"
+ },
+ "industrial_storage_cart": {
+  "type": "model",
+  "name": "Industrial Storage Cart",
+  "authors": [
+   "Jule Bielitz"
+  ],
+  "source": "https://polyhaven.com/a/industrial_storage_cart",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_storage_cart/industrial_storage_cart_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_storage_cart/industrial_storage_cart_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_storage_cart/industrial_storage_cart_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_storage_cart/industrial_storage_cart_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/industrial_storage_cart/industrial_storage_cart.bin"
+  ],
+  "use": "props"
+ },
+ "security_light": {
+  "type": "model",
+  "name": "Security Light",
+  "authors": [
+   "Maximilian Schuster"
+  ],
+  "source": "https://polyhaven.com/a/security_light",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/security_light/security_light_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_light/security_light_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/security_light/security_light.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_light/security_light_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/security_light/security_light_arm_1k.jpg"
+  ],
+  "use": "flood lights"
+ },
+ "classic_laptop": {
+  "type": "model",
+  "name": "Classic Laptop",
+  "authors": [
+   "Arrangemonk"
+  ],
+  "source": "https://polyhaven.com/a/classic_laptop",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/classic_laptop/classic_laptop_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/classic_laptop/classic_laptop.bin"
+  ],
+  "use": "terminals / intel"
+ },
+ "vintage_radio_transceiver": {
+  "type": "model",
+  "name": "Vintage Radio Transceiver",
+  "authors": [
+   "Mateusz Sadek"
+  ],
+  "source": "https://polyhaven.com/a/vintage_radio_transceiver",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_radio_transceiver/vintage_radio_transceiver_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_radio_transceiver/vintage_radio_transceiver_accessories_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/vintage_radio_transceiver/vintage_radio_transceiver.bin"
+  ],
+  "use": "comms room"
+ },
+ "circuit_board": {
+  "type": "model",
+  "name": "Circuit Board",
+  "authors": [
+   "Benny Weimer"
+  ],
+  "source": "https://polyhaven.com/a/circuit_board",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/circuit_board/circuit_board_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/circuit_board/circuit_board.bin"
+  ],
+  "use": "lab"
+ },
+ "modular_industrial_pipes_01": {
+  "type": "model",
+  "name": "Modular Industrial Pipes 01",
+  "authors": [
+   "Jorge Camacho"
+  ],
+  "source": "https://polyhaven.com/a/modular_industrial_pipes_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_industrial_pipes_01/modular_industrial_pipes_01.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_diff_1k.jpg"
+  ],
+  "use": "pipes"
+ },
+ "metal_trash_can": {
+  "type": "model",
+  "name": "Metal Trash Can",
+  "authors": [
+   "GurJas Studios"
+  ],
+  "source": "https://polyhaven.com/a/metal_trash_can",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_trash_can/metal_trash_can_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_rust_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_rust_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_trash_can/metal_trash_can.bin",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_trash_can/metal_trash_can_rust_arm_1k.jpg"
+  ],
+  "use": "props"
+ },
+ "portable_searchlight": {
+  "type": "model",
+  "name": "Portable Searchlight",
+  "authors": [
+   "Elijah Cragg"
+  ],
+  "source": "https://polyhaven.com/a/portable_searchlight",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_searchlight/portable_searchlight_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_searchlight/portable_searchlight_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_searchlight/portable_searchlight_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_searchlight/portable_searchlight_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/portable_searchlight/portable_searchlight.bin"
+  ],
+  "use": "perimeter"
+ },
+ "street_lamp_01": {
+  "type": "model",
+  "name": "Street Lamp 01",
+  "authors": [
+   "Josh Dean"
+  ],
+  "source": "https://polyhaven.com/a/street_lamp_01",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/street_lamp_01/street_lamp_01_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_01/street_lamp_01_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_01/street_lamp_01_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_01/street_lamp_01_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/street_lamp_01/street_lamp_01.bin"
+  ],
+  "use": "perimeter lights"
+ },
+ "old_military_compressor": {
+  "type": "model",
+  "name": "Old Military Compressor",
+  "authors": [
+   "Brian Speight"
+  ],
+  "source": "https://polyhaven.com/a/old_military_compressor",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/old_military_compressor/old_military_compressor_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_compressor/old_military_compressor_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_compressor/old_military_compressor_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/old_military_compressor/old_military_compressor_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/old_military_compressor/old_military_compressor.bin"
+  ],
+  "use": "props"
+ },
+ "metal_toolbox": {
+  "type": "model",
+  "name": "Metal Toolbox",
+  "authors": [
+   "Mateusz Sadek"
+  ],
+  "source": "https://polyhaven.com/a/metal_toolbox",
+  "files": [
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_toolbox/metal_toolbox_1k.gltf",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_toolbox/metal_toolbox_nor_gl_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_toolbox/metal_toolbox_diff_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_toolbox/metal_toolbox_arm_1k.jpg",
+   "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/metal_toolbox/metal_toolbox.bin"
+  ],
+  "use": "props"
+ }
+}

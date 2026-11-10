@@ -1,0 +1,71 @@
+[gd_resource type="Resource" script_class="MissionData" format=3]
+
+[ext_resource type="Script" path="res://scripts/missions/objective_data.gd" id="1_ink8e"]
+[ext_resource type="Script" path="res://scripts/missions/mission_data.gd" id="2_u0ubc"]
+
+[sub_resource type="Resource" id="Resource_rg6eq"]
+script = ExtResource("1_ink8e")
+id = &"enter_restricted"
+text = "Enter the restricted command area"
+
+[sub_resource type="Resource" id="Resource_bo5ee"]
+script = ExtResource("1_ink8e")
+id = &"disable_network"
+text = "Disable the main security network"
+
+[sub_resource type="Resource" id="Resource_6kabp"]
+script = ExtResource("1_ink8e")
+id = &"reach_command"
+text = "Reach the command sector"
+
+[sub_resource type="Resource" id="Resource_xgoax"]
+script = ExtResource("1_ink8e")
+id = &"overcome_commander"
+text = "Defeat or contain Commander Voss"
+
+[sub_resource type="Resource" id="Resource_lu6f3"]
+script = ExtResource("1_ink8e")
+id = &"retrieve_ledger"
+text = "Retrieve the final classified package"
+
+[sub_resource type="Resource" id="Resource_e0j1f"]
+script = ExtResource("1_ink8e")
+id = &"extract"
+text = "Reach the helipad extraction point"
+
+[sub_resource type="Resource" id="Resource_ptalt"]
+script = ExtResource("1_ink8e")
+id = &"undetected_lab"
+text = "Reach the network core undetected"
+optional = true
+
+[sub_resource type="Resource" id="Resource_26jng"]
+script = ExtResource("1_ink8e")
+id = &"lab_archive"
+text = "Recover the research lab archive"
+optional = true
+
+[sub_resource type="Resource" id="Resource_l8c0v"]
+script = ExtResource("1_ink8e")
+id = &"contain_voss"
+text = "Contain Voss without killing him"
+optional = true
+
+[resource]
+script = ExtResource("2_u0ubc")
+id = "m03"
+number = 3
+title = "Final Extraction"
+codename = "FINAL EXTRACTION"
+location = "Kestrel Ridge Facility — Command Sector"
+background = "Elias Voss, Northgate's head of security, built BLACK SIGNAL from inside the company. The final evidence — the buyer ledger — sits in the command sector vault. With it, the network and everyone who paid for it can be exposed."
+briefing = "This is the last run. Get through the blast doors into the restricted command area, then shut down the main security network from the research lab's network core — that unlocks the command sector.
+
+Voss is on site with his heavy response team. Fight him, or seal him inside the strategy room with the lockdown override — either way he cannot be allowed to stop you. Take the ledger from the vault and get to the helipad. I'll have a bird waiting."
+objectives = Array[ExtResource("1_ink8e")]([SubResource("Resource_rg6eq"), SubResource("Resource_bo5ee"), SubResource("Resource_6kabp"), SubResource("Resource_xgoax"), SubResource("Resource_lu6f3"), SubResource("Resource_e0j1f"), SubResource("Resource_ptalt"), SubResource("Resource_26jng"), SubResource("Resource_l8c0v")])
+weapons = Array[StringName]([&"pistol", &"rifle", &"shotgun"])
+gadgets = Array[StringName]([&"disruptor", &"scanner", &"recon"])
+scene_path = "res://scenes/missions/mission_03.tscn"
+par_time = 1080.0
+music = &"mission_3"
+briefing_voice = &"vo_brief_m03"

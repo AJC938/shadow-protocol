@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="MissionData" format=3]
+
+[ext_resource type="Script" path="res://scripts/missions/objective_data.gd" id="1_a880g"]
+[ext_resource type="Script" path="res://scripts/missions/mission_data.gd" id="2_vxs0o"]
+
+[sub_resource type="Resource" id="Resource_6scck"]
+script = ExtResource("1_a880g")
+id = &"enter_sector"
+text = "Enter the communications sector"
+
+[sub_resource type="Resource" id="Resource_4wcvy"]
+script = ExtResource("1_a880g")
+id = &"find_control"
+text = "Locate the security control room"
+
+[sub_resource type="Resource" id="Resource_13tfd"]
+script = ExtResource("1_a880g")
+id = &"disable_relays"
+text = "Disable the surveillance relays"
+required_count = 3
+
+[sub_resource type="Resource" id="Resource_qwykw"]
+script = ExtResource("1_a880g")
+id = &"retrieve_files"
+text = "Retrieve the classified communication files"
+
+[sub_resource type="Resource" id="Resource_5anry"]
+script = ExtResource("1_a880g")
+id = &"survive"
+text = "Survive the security response until the uplink completes"
+hidden = true
+
+[sub_resource type="Resource" id="Resource_2rc7n"]
+script = ExtResource("1_a880g")
+id = &"extract"
+text = "Extract from the rooftop"
+
+[sub_resource type="Resource" id="Resource_pj7rc"]
+script = ExtResource("1_a880g")
+id = &"undetected_files"
+text = "Retrieve the files without being detected"
+optional = true
+
+[sub_resource type="Resource" id="Resource_vqhf1"]
+script = ExtResource("1_a880g")
+id = &"transmission_log"
+text = "Recover the encrypted transmission log"
+optional = true
+
+[resource]
+script = ExtResource("2_vxs0o")
+id = "m02"
+number = 2
+title = "Black Signal"
+codename = "BLACK SIGNAL"
+location = "Kestrel Ridge Facility — Communications Sector"
+background = "The Silent Entry package contained relay schedules for a network codenamed BLACK SIGNAL: hidden transmitters inside Northgate's own security grid, used to intercept allied communications and sell them to the highest bidder."
+briefing = "The communications sector is wired tight — cameras in every corridor, and security specialists who will run for an alarm panel the moment they see you. Find the security control room and take their surveillance relays offline, then pull the classified communication files from the server hall.
+
+Downloading those files will trip a network lockdown. When it does, survive until the uplink completes, then get to the roof. Use the service ducts, use the disruptor — and remember that specialists carry radios."
+objectives = Array[ExtResource("1_a880g")]([SubResource("Resource_6scck"), SubResource("Resource_4wcvy"), SubResource("Resource_13tfd"), SubResource("Resource_qwykw"), SubResource("Resource_5anry"), SubResource("Resource_2rc7n"), SubResource("Resource_pj7rc"), SubResource("Resource_vqhf1")])
+weapons = Array[StringName]([&"pistol", &"rifle", &"shotgun"])
+gadgets = Array[StringName]([&"disruptor", &"scanner", &"recon"])
+scene_path = "res://scenes/missions/mission_02.tscn"
+par_time = 900.0
+music = &"mission_2"
+briefing_voice = &"vo_brief_m02"
+debrief = "The files confirm it. BLACK SIGNAL is run from the command sector by the facility's own security commander, Elias Voss. He is selling our people, GHOST. One more night."

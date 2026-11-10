@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1_ykqj5"]
+[ext_resource type="Resource" path="res://resources/weapons/enemy_smg.tres" id="2_wd1i4"]
+
+[resource]
+script = ExtResource("1_ykqj5")
+archetype = 1
+display_name = "Security Specialist"
+max_health = 90.0
+armor = 0.1
+vision_range = 28.0
+fov_degrees = 130.0
+detection_rate = 70.0
+suspicion_decay = 7.0
+hearing_multiplier = 1.25
+weapon = ExtResource("2_wd1i4")
+accuracy = 0.4
+reaction_time = 0.6
+burst_size = 4
+burst_interval = 1.2
+preferred_range = 12.0
+can_use_alarm = true
+radio_range = 45.0
